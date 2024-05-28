@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header, .navigation, .header-info {
+    display: flex;
+}
+
+.header {
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.navigation {
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9fAF8;
+}
+a { 
+    text-decoration: none;
+}
+
+a, .header-info p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-info h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.header-info button {
+    background-color: #3882F6;
+    color: white;
+}
